@@ -68,7 +68,11 @@
 #ifdef __WINDOWS__
 #define PRINTF_64 "%I64"
 #else
+#if __SIZEOF_LONG__ == 4
+#define PRINTF_64 "%ll"
+#else 
 #define PRINTF_64 "%l"
+#endif
 #endif
 
 
