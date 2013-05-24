@@ -68,7 +68,7 @@
 #ifdef __WINDOWS__
 #define PRINTF_64 "%I64"
 #else
-#define PRINTF_64 "%ll"
+#define PRINTF_64 "%l"
 #endif
 
 
