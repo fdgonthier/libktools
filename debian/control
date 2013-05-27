@@ -1,6 +1,6 @@
 Source: libktools
 Priority: extra
-Maintainer: 
+Maintainer: François-Denis Gonthier <fdgonthier@lostwebsite.net>
 Build-Depends: debhelper (>= 4), scons, python
 Standards-Version: 3.7.2
 Section: libs
